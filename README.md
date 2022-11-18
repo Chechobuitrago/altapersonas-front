@@ -32,7 +32,7 @@ delega unos querys especificos para de esta manera usar el motor de la base de d
 ## 2.Diferencias entre: cliente de BD vs driver de conexión de BD vs motor de base de datos  (Dar ejemplos)
   ### Cliente de BD
   ### Driver de conexion de BD
-    El driver es el encargado de cerrar la brecha entre nuestro programa y entorno de ejecucion y el motor de base de datos
+    El driver es el encargado de conectar nuestro programa y entorno de ejecucion, y el motor de base de datos
     de manera que este es el que permite comunicarnos con el motor de BD e internamente estos implementan protocolos
     de comunicacion necesarios para ejecutar operaciones sobre la BD
     un ejemplo de esto seria Spring Boot JDBC para la conexion con mysql
