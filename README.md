@@ -10,8 +10,13 @@ In the project directory, you can run:
 
 ## Parte B: 
 
-Se hicieron 2 Filtros (Nombre, Direccion) los cuales la api comunica con el backend de manera que 
-delega unos querys especificos para de esta manera usar el motor de la base de datos.
+  Se hicieron 2 Filtros (Nombre, Direccion) los cuales la api comunica con el backend de manera que 
+  delega unos querys especificos para de esta manera usar el motor de la base de datos.
+  
+  La diferencia está en que puede haber un problema de integridad debido a que no nos estamos 
+  asegurando de que los datos que se obtienen desde el front esten completos y correctos, 
+  por ejemplo si se hace desde este, un dato puede cambiar desde que se trajo por primera vez y 
+  cuando se hace el filtro no se vea el cambio
 
 ## Parte C:
 
@@ -31,13 +36,16 @@ delega unos querys especificos para de esta manera usar el motor de la base de d
     
 ## 2.Diferencias entre: cliente de BD vs driver de conexión de BD vs motor de base de datos  (Dar ejemplos)
   ### Cliente de BD
+    Un cliente de DB es un software que sirve para visualizar y gestionar los datos de una BD
+    Ejemplos de este son: dbvisaulizer, dbeaver, tablePlus
   ### Driver de conexion de BD
-    El driver es el encargado de cerrar la brecha entre nuestro programa y entorno de ejecucion y el motor de base de datos
-    de manera que este es el que permite comunicarnos con el motor de BD e internamente estos implementan protocolos
+    El driver es el encargado de conectar nuestro programa y el motor de base de datos e 
+    internamente estos drivers implementan protocolos
     de comunicacion necesarios para ejecutar operaciones sobre la BD
     un ejemplo de esto seria Spring Boot JDBC para la conexion con mysql
   ### Motor de base de datos
     Estos son herramientas que permiten realizar un numero determinado de operaciones sobre las tablas y sus datos.
+    Ejemplos de estos son: Postgres y Mysql
 ## 3.¿Qué es una API REST?
   Son mecanismos que permiten que 2 sistemas o componentes puedan comunicarse e intercambiar informacion
 
