@@ -22,8 +22,8 @@ delega unos querys especificos para de esta manera usar el motor de la base de d
   Es la manera en que se transforman o "mapear" estructuras de datos con el fin de simplificar y acelerar
   el desarrollo de las aplicaciones.
   ### Ventajas
-   El ORM permite automatizar el proceso de mapeo, ademas facilita la velocidad de uso y 
-   aporta seguridad a la capa de acceso de datos.
+    El ORM permite automatizar el proceso de mapeo, ademas facilita la velocidad de uso y 
+    aporta seguridad a la capa de acceso de datos.
   
   ### Desventajas
     En entornos con cargas altas puede llegar a reducir el rendimiento debido que se esta agregando una capa
