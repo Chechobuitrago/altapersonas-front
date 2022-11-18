@@ -12,7 +12,8 @@ In the project directory, you can run:
 
   Se hicieron 2 Filtros (Nombre, Direccion) los cuales la api comunica con el backend de manera que 
   delega unos querys especificos para de esta manera usar el motor de la base de datos.
-  La diferencia esta en que puede haber un problema de integridad debido a que no nos estamos 
+  
+  La diferencia está en que puede haber un problema de integridad debido a que no nos estamos 
   asegurando de que los datos que se obtienen desde el front esten completos y correctos, 
   por ejemplo si se hace desde este, un dato puede cambiar desde que se trajo por primera vez y 
   cuando se hace el filtro no se vea el cambio
