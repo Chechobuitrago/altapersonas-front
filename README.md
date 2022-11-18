@@ -16,21 +16,21 @@ delega unos querys especificos para de esta manera usar el motor de la base de d
 ## Parte C:
 
 
-##Otras preguntas (explicar con sus palabras):
+## Otras preguntas (explicar con sus palabras):
 
-##1.¿Qué es un ORM? Ventajas y desventajas.
+## 1.¿Qué es un ORM? Ventajas y desventajas.
   Es la manera en que se transforman o "mapear" estructuras de datos con el fin de simplificar y acelerar
   el desarrollo de las aplicaciones.
-  ###Ventajas
+  ### Ventajas
    El ORM permite automatizar el proceso de mapeo, ademas facilita la velocidad de uso y 
    aporta seguridad a la capa de acceso de datos.
   
-  ###Ventajas
+  ### Desventajas
     En entornos con cargas altas puede llegar a reducir el rendimiento debido que se esta agregando una capa
     extra al sistema
     
-##2.Diferencias entre: cliente de BD vs driver de conexión de BD vs motor de base de datos  (Dar ejemplos)
+## 2.Diferencias entre: cliente de BD vs driver de conexión de BD vs motor de base de datos  (Dar ejemplos)
 
-##3.¿Qué es una API REST?
+## 3.¿Qué es una API REST?
 
-##4.¿Qué es una Single Page Application? Donde se ejecuta una SPA?
+## 4.¿Qué es una Single Page Application? Donde se ejecuta una SPA?
