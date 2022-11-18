@@ -19,7 +19,7 @@ delega unos querys especificos para de esta manera usar el motor de la base de d
 ## Otras preguntas (explicar con sus palabras):
 
 ## 1.¿Qué es un ORM? Ventajas y desventajas.
-  Es la manera en que se transforman o "mapear" estructuras de datos con el fin de simplificar y acelerar
+  Es la manera en que se transforman o "mapean" estructuras de datos con el fin de simplificar y acelerar
   el desarrollo de las aplicaciones.
   ### Ventajas
     El ORM permite automatizar el proceso de mapeo, ademas facilita la velocidad de uso y 
