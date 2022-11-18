@@ -32,5 +32,6 @@ delega unos querys especificos para de esta manera usar el motor de la base de d
 ## 2.Diferencias entre: cliente de BD vs driver de conexión de BD vs motor de base de datos  (Dar ejemplos)
 
 ## 3.¿Qué es una API REST?
+  Son mecanismos que permiten que 2 sistemas o componentes puedan comunicarse e intercambiar informacion
 
 ## 4.¿Qué es una Single Page Application? Donde se ejecuta una SPA?
