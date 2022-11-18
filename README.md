@@ -32,6 +32,7 @@ delega unos querys especificos para de esta manera usar el motor de la base de d
 ## 2.Diferencias entre: cliente de BD vs driver de conexión de BD vs motor de base de datos  (Dar ejemplos)
   ### Cliente de BD
     Un cliente de DB es un software que sirve para visualizar y gestionar los datos de una BD
+    Ejemplos de este son: dbvisaulizer, dbeaver, tablePlus
   ### Driver de conexion de BD
     El driver es el encargado de conectar nuestro programa y el motor de base de datos e 
     internamente estos drivers implementan protocolos
