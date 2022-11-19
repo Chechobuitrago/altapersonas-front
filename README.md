@@ -50,3 +50,4 @@ In the project directory, you can run:
   Son mecanismos que permiten que 2 sistemas o componentes puedan comunicarse e intercambiar informacion
 
 ## 4.¿Qué es una Single Page Application? Donde se ejecuta una SPA?
+  Una SPA es una pagina web la cual el contenido se carga en solo una ventana,
