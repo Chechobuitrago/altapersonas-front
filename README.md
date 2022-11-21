@@ -52,6 +52,8 @@ In the project directory, you can run:
   - Un ejemplo de esto puede ser cuando un desarrollador Solicita a la API de Twitter 
   que busque el objeto de un usuario, esta devolvera el estado de este usuario (nombre, seguidores, etc)
   y comunmente puede estar en formato JSON, XML o HTML
+  - Una API REST hace uso de los metodos HTTP para hacer respectivas solicitudes como:
+    - GET, PUT, POST, DELETE
 
 ## 4.¿Qué es una Single Page Application? Donde se ejecuta una SPA?
   - Una SPA es una pagina web la cual el contenido esta dentro de un solo archivo, es decir solo se
