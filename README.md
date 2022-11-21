@@ -50,4 +50,10 @@ In the project directory, you can run:
   Son mecanismos que permiten que 2 sistemas o componentes puedan comunicarse e intercambiar informacion
 
 ## 4.¿Qué es una Single Page Application? Donde se ejecuta una SPA?
-  Una SPA es una pagina web la cual el contenido se carga en solo una ventana,
+  - Una SPA es una pagina web la cual el contenido esta dentro de un solo archivo, es decir solo se
+  carga un archivo HTML y todo el contenido está dentro de este, permitiendo que estas paginas
+  sean muy rapidas a la hora de cargar.
+  - En una SPA se tienen diferentes vistas no diferentes paginas. Estas webs se hacen en lenguaje
+  JavaScript debido a que se ejecutan unica y exclusivamente en el lado del cliente.
+  - No importa el tipo de backend que tengan detras, las SPA solo necesitan una API que les
+  propocione el contenido para mostrar.
