@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { format, intervalToDuration, parseISO } from "date-fns";
 import { Link, useNavigate } from "react-router-dom";
+import { API_URI_LOCAL } from "../constants/ApiConstants";
 
 export default function AddPersona() {
   let navigate = useNavigate();
@@ -57,7 +58,7 @@ export default function AddPersona() {
     const err = onValidate(persona);
     if (err === null) {
       console.log("Enviando Form");
-      await axios.post("http://localhost:8080/persona", persona);
+      await axios.post(`${API_URI_LOCAL}/persona`, persona);
       navigate("/");
     } else {
       setErros(err);
