@@ -47,6 +47,19 @@ In the project directory, you can run:
     Estos son herramientas que permiten realizar un numero determinado de operaciones sobre las tablas y sus datos.
     Ejemplos de estos son: Postgres y Mysql
 ## 3.¿Qué es una API REST?
-  Son mecanismos que permiten que 2 sistemas o componentes puedan comunicarse e intercambiar informacion
+  - Es la interfaz de programacion de aplicaciones para transferencia de servicios web
+  Su tarea principal es el intercambio de informacion y datos.
+  - Un ejemplo de esto puede ser cuando un desarrollador Solicita a la API de Twitter 
+  que busque el objeto de un usuario, esta devolvera el estado de este usuario (nombre, seguidores, etc)
+  y comunmente puede estar en formato JSON, XML o HTML
+  - Una API REST hace uso de los metodos HTTP para hacer respectivas solicitudes como:
+    - GET, PUT, POST, DELETE
 
 ## 4.¿Qué es una Single Page Application? Donde se ejecuta una SPA?
+  - Una SPA es una pagina web la cual el contenido esta dentro de un solo archivo, es decir solo se
+  carga un archivo HTML y todo el contenido está dentro de este, permitiendo que estas paginas
+  sean muy rapidas a la hora de cargar.
+  - En una SPA se tienen diferentes vistas no diferentes paginas. Estas webs se hacen en lenguaje
+  JavaScript debido a que se ejecutan unica y exclusivamente en el lado del cliente.
+  - No importa el tipo de backend que tengan detras, las SPA solo necesitan una API que les
+  propocione el contenido para mostrar.
