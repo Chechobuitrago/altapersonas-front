@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { format, intervalToDuration, parseISO } from "date-fns";
 import { Link, useNavigate } from "react-router-dom";
-import { API_URI_LOCAL } from "../constants/ApiConstants";
+import API_URI_LOCAL from "../constants/ApiConstants";
 
 export default function AddPersona() {
   let navigate = useNavigate();
